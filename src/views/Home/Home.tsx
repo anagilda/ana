@@ -15,6 +15,9 @@ function Home(): JSX.Element {
         <p className={styles.description}>Start building your Next project!</p>
 
         <button
+          className={
+            'mt-8 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow'
+          }
           onClick={() => {
             window.alert('With typescript and Jest');
           }}
