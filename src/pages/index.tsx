@@ -1,7 +1,6 @@
 import Head from 'next/head';
 
 import { HEAD_TITLE } from '@constants/seo';
-import HomeView from '@views/Home';
 
 function HomePage(): JSX.Element {
   return (
@@ -10,7 +9,9 @@ function HomePage(): JSX.Element {
         <title>{HEAD_TITLE}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HomeView />
+      <div className="flex items-center justify-center min-h-screen text-6xl bg-purple-200">
+        Hi, I&apos;m Ana!
+      </div>
     </>
   );
 }
