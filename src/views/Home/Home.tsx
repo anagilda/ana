@@ -1,11 +1,11 @@
 import Layout from '@layout';
 
+import Hero from './Hero';
+
 const Home = (): JSX.Element => (
   <Layout>
     <Layout.Content>
-      <div className="flex items-center justify-center min-h-screen text-6xl bg-purple-200">
-        Hi, I&apos;m Ana! 🐈
-      </div>
+      <Hero />
     </Layout.Content>
   </Layout>
 );
