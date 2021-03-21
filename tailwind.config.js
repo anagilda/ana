@@ -12,11 +12,9 @@ module.exports = {
       white: colors.white,
       orange: colors.amber,
       purple: {
-        lightest: '#D6C1EB',
-        light: '#C2A3E1',
+        light: '#D6C1EB',
         DEFAULT: '#84719B',
-        dark: '#2A1541',
-        darkest: '#1E0F2E',
+        dark: 'var(--color-purple-darkest)',
       },
     },
     fontFamily: {
