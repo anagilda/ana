@@ -3,13 +3,13 @@ const Hero = (): JSX.Element => {
     <section className="flex flex-col items-start justify-center min-h-screen">
       <div className="space-y-4">
         <h1 className="flex flex-col">
-          <span className="pb-4 text-purple-dark">Hi, my name is</span>
-          <span className="text-2xl font-bold tracking-widest text-orange-400 md:text-4xl lg:text-5xl">
+          <span className="pb-4 text-gray-800">Hi, my name is</span>
+          <span className="text-2xl font-extrabold tracking-wider text-orange-400 md:text-4xl lg:text-5xl">
             Ana Rodrigues
           </span>
         </h1>
         <div>
-          <h2 className="font-mono text-2xl font-bold text-gray-700 md:text-4xl lg:text-5xl">
+          <h2 className="text-2xl tracking-wide text-gray-800 md:text-4xl lg:text-5xl">
             I solve problems with code.
           </h2>
         </div>
