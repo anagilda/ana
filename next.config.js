@@ -3,7 +3,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 });
 
 const githubPagesDeployment = process.env?.DEPLOYMENT_SOURCE == 'githubActions';
-const githubPagesURL = process.env?.GITHUB_PAGES_URL
+const githubPagesURL = process.env?.GITHUB_PAGES_URL;
 const nextConfig = {
   assetPrefix: githubPagesDeployment ? githubPagesURL : '',
 };
