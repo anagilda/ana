@@ -22,7 +22,7 @@ const Hero = (): JSX.Element => {
           </p>
         </div>
         <div>
-          <a href=`mailto:${EMAIL_ADDRESS}`>
+          <a href="mailto:agdr93@gmail.com">
             <button className="w-full px-4 mt-8 font-mono font-bold text-white bg-orange-400 rounded-sm sm:w-auto h-11">
               Contact me
             </button>
