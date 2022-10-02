@@ -20,9 +20,11 @@ const Hero = (): JSX.Element => {
           </p>
         </div>
         <div>
-          <button className="w-full px-4 mt-8 font-mono font-bold text-white bg-orange-400 rounded-sm sm:w-auto h-11">
-            Contact me
-          </button>
+          <a onClick = {(href) => href - "mailto:agdr93@gmail.com"}>
+            <button className="w-full px-4 mt-8 font-mono font-bold text-white bg-orange-400 rounded-sm sm:w-auto h-11">
+              Contact me
+            </button>
+          </a>
         </div>
       </div>
     </section>
