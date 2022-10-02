@@ -1,5 +1,3 @@
-import { EMAIL_ADDRESS } from '@constants/seo';
-
 const Hero = (): JSX.Element => {
   return (
     <section className="flex flex-col items-start justify-center min-h-screen">
